@@ -5,6 +5,7 @@ RSpec.describe Car do
 
   describe 'Attributes' do
     it { is_expected.to respond_to :speed }
+    it { is_expected.to respond_to :color }
   end
 
   describe 'Methods' do
